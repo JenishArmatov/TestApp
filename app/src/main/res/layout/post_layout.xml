@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/post_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_post_userId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/user_id"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/tv_post_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/id"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/tv_post_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/tittle"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/tv_post_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/body"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorBlack" />
+</LinearLayout>

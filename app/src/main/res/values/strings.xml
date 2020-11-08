@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="user_id">User ID :  </string>
+    <string name="id">ID :  </string>
+    <string name="tittle">Tittle :  </string>
+    <string name="body">Body :  </string>
+
+    <string name="post_id">Post ID :  </string>
+    <string name="comment_name">Name :  </string>
+
+    <string name="email">Email :  </string>
+    <string name="comments">Comments :  </string>
+    <string name="activity_comments_label">Comments </string>
+
+</resources>
